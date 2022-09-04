@@ -1,0 +1,27 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/v1/admin/auth        --> _/D_/workspace/go-microservices/src/user-microservice/controllers.(*User).Authenticate-fm (3 handlers)
+[GIN-debug] POST   /api/v1/users             --> _/D_/workspace/go-microservices/src/user-microservice/controllers.(*User).AddUser-fm (4 handlers)
+[GIN-debug] GET    /api/v1/users/list        --> _/D_/workspace/go-microservices/src/user-microservice/controllers.(*User).ListUsers-fm (4 handlers)
+[GIN-debug] GET    /api/v1/users/detail/:id  --> _/D_/workspace/go-microservices/src/user-microservice/controllers.(*User).GetUserByID-fm (4 handlers)
+[GIN-debug] GET    /api/v1/users/            --> _/D_/workspace/go-microservices/src/user-microservice/controllers.(*User).GetUserByParams-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/users/:id         --> _/D_/workspace/go-microservices/src/user-microservice/controllers.(*User).DeleteUserByID-fm (4 handlers)
+[GIN-debug] PATCH  /api/v1/users             --> _/D_/workspace/go-microservices/src/user-microservice/controllers.(*User).UpdateUser-fm (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8808
+[GIN] 2020/04/18 - 20:33:13 | 404 |            0s |             ::1 | GET      "/list"
+[GIN] 2020/04/18 - 20:33:23 | 404 |            0s |             ::1 | GET      "/"
+[GIN] 2020/04/18 - 20:33:47 | 404 |            0s |             ::1 | GET      "/api/v1"
+[GIN] 2020/04/18 - 20:33:48 | 404 |            0s |             ::1 | GET      "/favicon.ico"
+[GIN] 2020/04/18 - 20:33:52 | 404 |            0s |             ::1 | GET      "/"
+[GIN] 2020/04/18 - 20:33:58 | 404 |            0s |             ::1 | GET      "/list"
+[GIN] 2020/04/18 - 20:34:28 | 404 |            0s |             ::1 | OPTIONS  "/"
+[GIN] 2020/04/18 - 20:37:15 | 404 |            0s |             ::1 | GET      "/"
+[GIN] 2020/04/18 - 20:37:52 | 404 |            0s |             ::1 | OPTIONS  "/api/v1/users/"
+[GIN] 2020/04/18 - 20:41:17 | 404 |            0s |             ::1 | GET      "/"
+[GIN] 2020/04/18 - 20:41:19 | 404 |            0s |             ::1 | GET      "/"
+[GIN] 2020/04/18 - 20:41:53 | 404 |            0s |             ::1 | GET      "/"
