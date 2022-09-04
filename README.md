@@ -7,30 +7,10 @@ Below is an example of designing and implementing **Microservices** using:
 * [**Traefik**](https://github.com/containous/traefik)
 * [**MongoDB**](https://www.mongodb.com/download-center)
 
-### 1. Movie Microservices Example Architecture
-![Movie Services](./docs/images/arc_movie_microservice_architecture.png)
-
-#### 1.1. Microservices Authentication Flow In General
-| Terms | Description |
-|-|-|
-| **3rd App Service**| Outternal services that want to use/integrate with Movie service. |
-| **API Gateway** | The single entry point for all clients. The API gateway proxied/routed requests to the appropriate service. |
-| **IAM Service** | Service that authenticates user and grants authorizations (permissions).|
-| **Resource Service** | Service that hosts protected resources and validates access token during resource access. |
-
-![Communication Flows](./docs/images/seq_access_resource.png)
-
-#### 1.2. Recommendation Service Authentication Flow
-
-![Recommendation Service Flows](./docs/images/seq_recommendation_service.png)
-
-#### 1.3. Class Diagram Of User Management Service
-
-![User Management Service Class Diagram](./docs/images/cd_user_service.png)
 
 ***
-### 2. Movie Service Build & Run
-#### 2.1. Setup development environement
+### Movie Service Build & Run
+####  Setup development environement
 * Install Golang
 * Install MongoDB
 
